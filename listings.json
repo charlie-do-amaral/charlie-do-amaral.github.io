@@ -1,9 +1,8 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog_blog.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/blog_blog/Gestion de ventas que funciona/index.html"
     ]
   }
 ]
