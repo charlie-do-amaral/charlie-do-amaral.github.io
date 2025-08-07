@@ -1,14 +1,9 @@
 ---
 title: "Blog"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: false
 ---
 
+Este espacio resume las **"pepitas de oro"** con las que me he cruzado a lo largo de mi experiencia profesional y me brinda la oportunidad de compartirlo con usted. Básicamente, se basa en recopilaciones de los temás más relevantes en `Negocio`, `Finanzas`, `Design thinking`, `Estrategia` entre otros.
 
+Espero que estas soluciones le ayuden a comprender lo que más importa, dicho de otro modo, dejar de centrarse en el CÓMO sin antes evaluar el `POR QUÉ`.
+
+![Las soluciones tradicionales a menudo contradicen lo que más importa: el POR QUÉ.](targets.png)

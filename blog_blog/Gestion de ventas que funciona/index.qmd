@@ -1,0 +1,13 @@
+---
+title: "Gestión de ventas que funciona!"
+image: 01.png
+categories: [Ventas]
+about: 
+  template: marquee
+  links: 
+    - icon: linkedin
+      text: linkedIn
+      href: https://www.linkedin.com/in/charlie-arturo-do-amaral-becerra/
+---
+
+## Título
