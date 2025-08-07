@@ -1,7 +1,10 @@
 ---
 title: "Gestión de ventas que funciona!"
+subtitle: "Cómo vender en un mundo que no deja de cambiar"
 image: 01.png
 categories: [Ventas]
+format: sketchy-html
+toc: true
 about: 
   template: marquee
   links: 
@@ -10,4 +13,88 @@ about:
       href: https://www.linkedin.com/in/charlie-arturo-do-amaral-becerra/
 ---
 
-## Título
+No se puede gestionar una respuesta rentable a los cambios del mercado a menos que se comprenda el comportamiento cambiante de los compradores y sus correspondientes impactos en las tareas de desarrollo de negocio.
+
+Es cierto que, esto de "gestionar", no es una actividad sencilla, especialmente cuando se trabaja en una industria plagada de mitos, suposiciones sin analizar y modas pasajeras.
+
+Vender implica una compleja combinación de factores: una [estrategia coherente]{.highlight}, [prácticas de contratación]{.highlight}, [incentivos relevantes]{.highlight}, y una [gestión continua del desempeño]{.highlight} que impulse los comportamientos adecuados ante los numeros cambios que escapan al control de su empresa. **Puede negar la complejidad, pero seguirá ahi!**
+
+:::{.box}
+El propósito de este post es ayudarle a distinguir las señales del ruido y aclarar las decisiones y acciones clave. Mi intensión es ayudarle a usted como vendedor, gerente de ventas, o incluso comprador, a mejorar la productividad y los resultados.
+:::
+
+### Qué está cambiando y por qué es importante?
+
+#### De los embudos a los flujos
+
+Durante muchas décadas, la compra se ha enmarcado típicamente en términos de un modelo de jerarquía de efectos: mover a un cliente potencial de la [conciencia]{.strike} (awareness) al [interés]{.strike} al [deseo]{.strike} y a la [acción]{.strike}. La fórmula AIDA y sus múltiples variantes son base (a menudo la basa inconsciente) de las actividades y la organización de ventas en la mayoría de las empresas.
+
+Es fundamentalmente un proceso de adentro hacia afuera, y los sistemas de gestión de relaciones con el cliente (CRM) están ahí para proporcionar datos sobre el progreso (o no) a través del embudo de ventas de esa empresa: las métricas del "pipeline" que dominan las conversaciones sobre ventas (blogs, ventas, seminarios de capacitación e iniciativas de coaching).
+
+Pero la investigación indica una realidad de compra [diferente]{.circle}: `en lugar de moverse secuencialmente a través de un embudo, los compradores ahora trabajan a través de flujos de actividad paralelos para tomar una decisión de compra`. Etiquetemos estos flujos de actividad como [explorar]{.highlight}, [evaluar]{.highlight}. [interactuar]{.highlight} y [experimentar]{.highlight}.
+
+#### Explorar
+
+En este proceso, los compradores identifican una necesidad u oportunidad y buscan maneras de abordarla, generalmente mediante [interacciones]{.circle} con proveedores potenciales y búsquedas de información autodirigidas en internet.
+
+La activación de una necesidad puede deberse a factores internos (por ej., avería de un sistema, desgaste de un automóvil, etc.). Los factores externos incluyen mandatos regulatorios (por ej., impacto de alguna ley ambiental o de seguros), nuevas tecnologías o mercados, o quizás publicidad y promoción de ventas.
+
+#### Evaluar
+
+Los compradores analizan con más detalle las opciones descubiertas mientras definen la necesidad u oportunidad (este es el proceso paralelo), apoyándose en gran medida en la búsqueda autodirigida, las interacciones con colegas y representantes de ventas de proveedores potenciales.
+
+Esta actividad no se centra principalmente en determinar el producto o servicio específico que comprarán, sino en determinar el mejor enfoque y la mejor opción (por ejemplo, construir o comprar, comprar o alquilar, etc.). Los compradores compararán múltiples opciones, identifican el tipo de solución y las seleccionan para obtener una lista corta.
+
+#### Interactuar
+
+Los compradores inician un contacto más profundo con los proveedores para obtener ayuda en la toma de decisiones de compra. Dependiendo de mercado y la categoría del producto, esto puede implicar:
+
+-   la descarga de un informe técnico u otra forma de marketing de contenido
+-   el envío de una solicitud de propuesta formal
+-   interactuar con sitios webs, blogs, chatbots y redes sociales
+
+#### Experiencia
+
+Se toma una decisión de compra formal y los compradores utilizan el producto y desarrollan [percepciones]{.highlight} sobre su valor. Esto es lo que los profesionales en marketing denominan "valor experiencial", que solo se hace evidente en el uso real posventa.
+
+La forma en que los vendedores eficaces realizan las tareas de venta, está cambiando. Por ejmplo, vea, la imagen de más abajo, las referencias de clientes ocupan un segundo lugar en términos de influencia.
+
+![Las actividades de marketing B2B más influyentes.](02.png)
+
+En términos más generales, es importante reconocer que los flujos de compra implican que los clientes potenciales ahora contactan con la [marca]{.circle} y la empresa en muchos puntos diferentes (en línea, fuera de línea, materiales de marketing, etc.), y cada contacto impacta en las tareas de ventas.
+
+### La importancia del talento
+
+A medida que las empresas se enfrentan a nuevos procesos de compra, las competencias de ventas requeridas cambian. La siguiente figura se basa en una extensa base de datos de perfiles de empresas, refleja el cambio de las competencias de ventas en muchas empresas.
+
+La forma de interpretar estos datos coincide con el chiste de dos cazadores perseguidos por un oso furioso:
+
+> "!No tengo que correr más rápido que el oso; solo necesito correr más rápido que tú!".
+
+![Los vendedores requieren diferentes competencias que en el pasado.](03.png)
+
+Competencias que se consideraban esenciales hace solo una década, perdieron prioridad en la segunda década del siglo XXI.
+
+### Gestión multicanal
+¿Deberíamos interactuar en línea o en persona, a través de la web o a través de los vendedores en nuestras estrategias de ventas? [Respuesta:]{.circle} [Sí]{.highlight}. Los clientes están desvinculando muchos canales tradicionales a medida que cambian de canal. Por lo tanto, evite una falsa dicotomía; enfrente los hechos y las implicaciones de la salida al mercado para su negocio. 
+
+### Su hoja de ruta
+La venta eficaz es, en última instancia, un resultado organizacional dónde las prácticas de [gestión del personal]{.highlight} y del desempeño se ajustan al [proceso de ventas]{.highlight}, la [estrategia de precios]{.highlight} y las [decisiones]{.highlight} sobre los socios de salida al mercado. A Andrew Carnigie le preguntaron una vez: ¿Qué elemento es más importante para el éxito de una empresa: el cerecbro, el capital o la mano de obra? Su respuesta:
+
+> "¿Cuál es la pata más importante de un taburete de tres patas?" Es la combinación de personas, procesos, precios y socios lo que impulsa la productividad de las ventas.
+
+<p class="text-success">[Personas]{.circle}. Aquién contrata, cómo y qué se hace para capacitar y desarrollar a los vendedores es más importante y costoso que nunca. En conjunto, contratar personal de ventas suele ser más costoso que muchas decisiones de inversión de capital (Capex) en las empresas, y las empresas ya gastan un 20% más per cápita en capacitación de ventas que en otras funciones.</p>
+
+<p class="text-info">[Proceso]{.circle}. Determinar las opciones para construir y reconstruir un proceso replicable de esfuerzos de ventas y sus implicaciones para la selección de clientes, los patrones de llamadas, el análisis de conversiones, el desarrollo de un perfil de ventas, la comprensión y el uso de datos para comprender los procesos de compra e informar sobre las actividades de ventas relevantes.</p>
+
+<p class="text-success-emphasis">[Pricing]{.circle}. Este es el momento más decisivo en los negocios. La fijación de precios puede generar o destruir utilidades en un panorama cambiante, la importancia de las pruebas de precios en los mercados actuales, ricos en información, y cómo vincular los precios con su propuesta de valor, modelo de ventas y comportamiento de venta.</p>
+
+<p class="text-info-emphasis">[Socios]{.circle}. Vender ahora también implica trabajar con socios de canal que influyen durante el proceso de compra y después de la venta.Las opciones han aumentado, al igual que la complejidad de la gestión. Debe analizar los componentes clave del diseño de canales y proporcionar directrices y diagnósticos para realinear el papel de los canales en los programas de ventas.</p>
+
+<p class="text-success">[Productividad]{.circle}. Debido al papel central de la adquisicón de clientes en una empresa, los cambios en los requerimientos de ventas tienen implicaciones organizacionales más amplias. Sin embargo, muchos líderes de alto nivel no están al tanto de las actividades de sus colegas que atienden al cliente. Debe analizar las razones y las medidas que, como líder puede tomar para cerrar esta brecha y mejorar las productividad de las ventas.</p>
+
+La forma de lograr ese ajuste, dependerá del contexto particular de su empresa. Pero mi consejo es empezar por las personas.
+
+
+
+

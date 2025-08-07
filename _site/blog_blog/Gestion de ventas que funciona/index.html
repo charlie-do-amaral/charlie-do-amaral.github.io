@@ -36,14 +36,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f0462af1f1fab958f01fce22f6ac7405.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-08799928d293638fe9563d5c5a2794e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-f0462af1f1fab958f01fce22f6ac7405.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-3ab716bfabfd11a91df666884d1ad876.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/sketchy-annotate-0.0.1/annotate.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,172 +79,10 @@ gtag('config', 'G-WZ5QTBHBQF', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../_extensions/schochastics/sketchy/theme.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -290,7 +125,6 @@ gtag('config', 'G-WZ5QTBHBQF', { 'anonymize_ip': true});
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -299,7 +133,17 @@ gtag('config', 'G-WZ5QTBHBQF', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#qué-está-cambiando-y-por-qué-es-importante" id="toc-qué-está-cambiando-y-por-qué-es-importante" class="nav-link active" data-scroll-target="#qué-está-cambiando-y-por-qué-es-importante">Qué está cambiando y por qué es importante?</a></li>
+  <li><a href="#la-importancia-del-talento" id="toc-la-importancia-del-talento" class="nav-link" data-scroll-target="#la-importancia-del-talento">La importancia del talento</a></li>
+  <li><a href="#gestión-multicanal" id="toc-gestión-multicanal" class="nav-link" data-scroll-target="#gestión-multicanal">Gestión multicanal</a></li>
+  <li><a href="#su-hoja-de-ruta" id="toc-su-hoja-de-ruta" class="nav-link" data-scroll-target="#su-hoja-de-ruta">Su hoja de ruta</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <div class="quarto-about-marquee">
   <div class="about-image-container">
@@ -309,6 +153,7 @@ gtag('config', 'G-WZ5QTBHBQF', { 'anonymize_ip': true});
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Gestión de ventas que funciona!</h1>
+<p class="subtitle lead">Cómo vender en un mundo que no deja de cambiar</p>
   <div class="quarto-categories">
     <div class="quarto-category">Ventas</div>
   </div>
@@ -317,8 +162,93 @@ gtag('config', 'G-WZ5QTBHBQF', { 'anonymize_ip': true});
   </div>
 </header> <main class="content" id="quarto-document-content">
 
-<section id="título" class="level2">
-<h2 data-anchor-id="título">Título</h2>
+<p>No se puede gestionar una respuesta rentable a los cambios del mercado a menos que se comprenda el comportamiento cambiante de los compradores y sus correspondientes impactos en las tareas de desarrollo de negocio.</p>
+<p>Es cierto que, esto de “gestionar”, no es una actividad sencilla, especialmente cuando se trabaja en una industria plagada de mitos, suposiciones sin analizar y modas pasajeras.</p>
+<p>Vender implica una compleja combinación de factores: una <span class="highlight">estrategia coherente</span>, <span class="highlight">prácticas de contratación</span>, <span class="highlight">incentivos relevantes</span>, y una <span class="highlight">gestión continua del desempeño</span> que impulse los comportamientos adecuados ante los numeros cambios que escapan al control de su empresa. <strong>Puede negar la complejidad, pero seguirá ahi!</strong></p>
+<div class="box">
+<p>El propósito de este post es ayudarle a distinguir las señales del ruido y aclarar las decisiones y acciones clave. Mi intensión es ayudarle a usted como vendedor, gerente de ventas, o incluso comprador, a mejorar la productividad y los resultados.</p>
+</div>
+<section id="qué-está-cambiando-y-por-qué-es-importante" class="level3">
+<h3 data-anchor-id="qué-está-cambiando-y-por-qué-es-importante">Qué está cambiando y por qué es importante?</h3>
+<section id="de-los-embudos-a-los-flujos" class="level4">
+<h4 data-anchor-id="de-los-embudos-a-los-flujos">De los embudos a los flujos</h4>
+<p>Durante muchas décadas, la compra se ha enmarcado típicamente en términos de un modelo de jerarquía de efectos: mover a un cliente potencial de la <span class="strike">conciencia</span> (awareness) al <span class="strike">interés</span> al <span class="strike">deseo</span> y a la <span class="strike">acción</span>. La fórmula AIDA y sus múltiples variantes son base (a menudo la basa inconsciente) de las actividades y la organización de ventas en la mayoría de las empresas.</p>
+<p>Es fundamentalmente un proceso de adentro hacia afuera, y los sistemas de gestión de relaciones con el cliente (CRM) están ahí para proporcionar datos sobre el progreso (o no) a través del embudo de ventas de esa empresa: las métricas del “pipeline” que dominan las conversaciones sobre ventas (blogs, ventas, seminarios de capacitación e iniciativas de coaching).</p>
+<p>Pero la investigación indica una realidad de compra <span class="circle">diferente</span>: <code>en lugar de moverse secuencialmente a través de un embudo, los compradores ahora trabajan a través de flujos de actividad paralelos para tomar una decisión de compra</code>. Etiquetemos estos flujos de actividad como <span class="highlight">explorar</span>, <span class="highlight">evaluar</span>. <span class="highlight">interactuar</span> y <span class="highlight">experimentar</span>.</p>
+</section>
+<section id="explorar" class="level4">
+<h4 data-anchor-id="explorar">Explorar</h4>
+<p>En este proceso, los compradores identifican una necesidad u oportunidad y buscan maneras de abordarla, generalmente mediante <span class="circle">interacciones</span> con proveedores potenciales y búsquedas de información autodirigidas en internet.</p>
+<p>La activación de una necesidad puede deberse a factores internos (por ej., avería de un sistema, desgaste de un automóvil, etc.). Los factores externos incluyen mandatos regulatorios (por ej., impacto de alguna ley ambiental o de seguros), nuevas tecnologías o mercados, o quizás publicidad y promoción de ventas.</p>
+</section>
+<section id="evaluar" class="level4">
+<h4 data-anchor-id="evaluar">Evaluar</h4>
+<p>Los compradores analizan con más detalle las opciones descubiertas mientras definen la necesidad u oportunidad (este es el proceso paralelo), apoyándose en gran medida en la búsqueda autodirigida, las interacciones con colegas y representantes de ventas de proveedores potenciales.</p>
+<p>Esta actividad no se centra principalmente en determinar el producto o servicio específico que comprarán, sino en determinar el mejor enfoque y la mejor opción (por ejemplo, construir o comprar, comprar o alquilar, etc.). Los compradores compararán múltiples opciones, identifican el tipo de solución y las seleccionan para obtener una lista corta.</p>
+</section>
+<section id="interactuar" class="level4">
+<h4 data-anchor-id="interactuar">Interactuar</h4>
+<p>Los compradores inician un contacto más profundo con los proveedores para obtener ayuda en la toma de decisiones de compra. Dependiendo de mercado y la categoría del producto, esto puede implicar:</p>
+<ul>
+<li>la descarga de un informe técnico u otra forma de marketing de contenido</li>
+<li>el envío de una solicitud de propuesta formal</li>
+<li>interactuar con sitios webs, blogs, chatbots y redes sociales</li>
+</ul>
+</section>
+<section id="experiencia" class="level4">
+<h4 data-anchor-id="experiencia">Experiencia</h4>
+<p>Se toma una decisión de compra formal y los compradores utilizan el producto y desarrollan <span class="highlight">percepciones</span> sobre su valor. Esto es lo que los profesionales en marketing denominan “valor experiencial”, que solo se hace evidente en el uso real posventa.</p>
+<p>La forma en que los vendedores eficaces realizan las tareas de venta, está cambiando. Por ejmplo, vea, la imagen de más abajo, las referencias de clientes ocupan un segundo lugar en términos de influencia.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="02.png" class="img-fluid figure-img"></p>
+<figcaption>Las actividades de marketing B2B más influyentes.</figcaption>
+</figure>
+</div>
+<p>En términos más generales, es importante reconocer que los flujos de compra implican que los clientes potenciales ahora contactan con la <span class="circle">marca</span> y la empresa en muchos puntos diferentes (en línea, fuera de línea, materiales de marketing, etc.), y cada contacto impacta en las tareas de ventas.</p>
+</section>
+</section>
+<section id="la-importancia-del-talento" class="level3">
+<h3 data-anchor-id="la-importancia-del-talento">La importancia del talento</h3>
+<p>A medida que las empresas se enfrentan a nuevos procesos de compra, las competencias de ventas requeridas cambian. La siguiente figura se basa en una extensa base de datos de perfiles de empresas, refleja el cambio de las competencias de ventas en muchas empresas.</p>
+<p>La forma de interpretar estos datos coincide con el chiste de dos cazadores perseguidos por un oso furioso:</p>
+<blockquote class="blockquote">
+<p>“!No tengo que correr más rápido que el oso; solo necesito correr más rápido que tú!”.</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="03.png" class="img-fluid figure-img"></p>
+<figcaption>Los vendedores requieren diferentes competencias que en el pasado.</figcaption>
+</figure>
+</div>
+<p>Competencias que se consideraban esenciales hace solo una década, perdieron prioridad en la segunda década del siglo XXI.</p>
+</section>
+<section id="gestión-multicanal" class="level3">
+<h3 data-anchor-id="gestión-multicanal">Gestión multicanal</h3>
+<p>¿Deberíamos interactuar en línea o en persona, a través de la web o a través de los vendedores en nuestras estrategias de ventas? <span class="circle">Respuesta:</span> <span class="highlight">Sí</span>. Los clientes están desvinculando muchos canales tradicionales a medida que cambian de canal. Por lo tanto, evite una falsa dicotomía; enfrente los hechos y las implicaciones de la salida al mercado para su negocio.</p>
+</section>
+<section id="su-hoja-de-ruta" class="level3">
+<h3 data-anchor-id="su-hoja-de-ruta">Su hoja de ruta</h3>
+<p>La venta eficaz es, en última instancia, un resultado organizacional dónde las prácticas de <span class="highlight">gestión del personal</span> y del desempeño se ajustan al <span class="highlight">proceso de ventas</span>, la <span class="highlight">estrategia de precios</span> y las <span class="highlight">decisiones</span> sobre los socios de salida al mercado. A Andrew Carnigie le preguntaron una vez: ¿Qué elemento es más importante para el éxito de una empresa: el cerecbro, el capital o la mano de obra? Su respuesta:</p>
+<blockquote class="blockquote">
+<p>“¿Cuál es la pata más importante de un taburete de tres patas?” Es la combinación de personas, procesos, precios y socios lo que impulsa la productividad de las ventas.</p>
+</blockquote>
+<p class="text-success">
+<span class="circle">Personas</span>. Aquién contrata, cómo y qué se hace para capacitar y desarrollar a los vendedores es más importante y costoso que nunca. En conjunto, contratar personal de ventas suele ser más costoso que muchas decisiones de inversión de capital (Capex) en las empresas, y las empresas ya gastan un 20% más per cápita en capacitación de ventas que en otras funciones.
+</p>
+<p class="text-info">
+<span class="circle">Proceso</span>. Determinar las opciones para construir y reconstruir un proceso replicable de esfuerzos de ventas y sus implicaciones para la selección de clientes, los patrones de llamadas, el análisis de conversiones, el desarrollo de un perfil de ventas, la comprensión y el uso de datos para comprender los procesos de compra e informar sobre las actividades de ventas relevantes.
+</p>
+<p class="text-success-emphasis">
+<span class="circle">Pricing</span>. Este es el momento más decisivo en los negocios. La fijación de precios puede generar o destruir utilidades en un panorama cambiante, la importancia de las pruebas de precios en los mercados actuales, ricos en información, y cómo vincular los precios con su propuesta de valor, modelo de ventas y comportamiento de venta.
+</p>
+<p class="text-info-emphasis">
+<span class="circle">Socios</span>. Vender ahora también implica trabajar con socios de canal que influyen durante el proceso de compra y después de la venta.Las opciones han aumentado, al igual que la complejidad de la gestión. Debe analizar los componentes clave del diseño de canales y proporcionar directrices y diagnósticos para realinear el papel de los canales en los programas de ventas.
+</p>
+<p class="text-success">
+<span class="circle">Productividad</span>. Debido al papel central de la adquisicón de clientes en una empresa, los cambios en los requerimientos de ventas tienen implicaciones organizacionales más amplias. Sin embargo, muchos líderes de alto nivel no están al tanto de las actividades de sus colegas que atienden al cliente. Debe analizar las razones y las medidas que, como líder puede tomar para cerrar esta brecha y mejorar las productividad de las ventas.
+</p>
+<p>La forma de lograr ese ajuste, dependerá del contexto particular de su empresa. Pero mi consejo es empezar por las personas.</p>
 
 
 </section>
@@ -335,19 +265,6 @@ gtag('config', 'G-WZ5QTBHBQF', { 'anonymize_ip': true});
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
