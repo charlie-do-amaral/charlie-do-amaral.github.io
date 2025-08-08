@@ -1,0 +1,106 @@
+---
+title: "CV"
+format:
+  html:
+    toc: true
+css: cv.css
+---
+
+## EDUCACIÓN
+
+**Especialización en Estrategia Competitiva**<br> *Universidad de Munich - ISTO (Institute for Strategy, Technology and Organization)* [*Oct 2024 --- Abr 2025*]{.cvdate}
+
+-   Módulos: Estrategia Competitiva, Estrategia Competitiva Avanzada, Diseño Organizacional Estratégico, Mercados Digitales y Plataformas
+
+**Especialización en Estadística** <br> *University of Michigan* [*Ago 2020 --- Feb 2021*]{.cvdate}
+
+-   Programa bajo licencia MOOC Online
+
+**Científico de Datos Certificado** <br> *IBM Cognitive Class* [*Jul 2021 --- Dic 2021*]{.cvdate}
+
+-   7 Certificaciones en Ciencia de Datos: Predictive Modeling Fundamental, Data Analysis Using R and Python, Data Science Methodologies, Data Visualization Using R and Python
+
+**Licenciado en Administración y Dirección de Empresas** <br> *Universidad Autónoma de Barcelona* [*Abr 2000 --- Jun 2005*]{.cvdate}
+
+-   Mensión en Economía (Econometría II, Teoría de Juegos, Microeconomía III)
+
+**Cursos y programas de formación** <br> *Autodidacta* [*Abr 2020 --- Presente*]{.cvdate}
+
+-   Certificación Microsoft: C# Fundamentals
+-   SQL Server nivel intermedio
+-   Implementación de servicios de integración de datos con SSIS (SQL Server Integration Services)
+-   Implementación de mdelos de datos tabulares y multidimensionales con SSAS (SQL Server Analysis Services)
+-   Implementación de servicios de reportes con SSRS (SQL Server Reporting Services)
+
+## EXPERIENCIA LABORAL{style="page-break-before: always"}
+
+### Consultor Independiente
+
+***Freelance, Múltiples Clientes*** [Dic 2021 -- Presente]{.cvdate}
+
+Servicios de consultoría en elaboración de estrategias de pricing, estrategias competitivas, diseño de productos, creación de propuestas de valor, pocesamiento y análisis de datos. Los proyectos incluyen: 
+
+-   Implementación de modelos de estimación de la demanda, simuladores financieros para pricing, análisis de la cesta de compra, desarrollo de modelos de optimización de precios.
+-   Capacitaciones, cursos y talleres de formación en Business Management, Data Science y Business Intelligence. Los programas de formación incluyen:
+    - Optimización de la estrategia de pricing
+    - Introducción al análisis estratégico
+    - Decisiones rentables de precios
+    - Análisis estratégico de casos de negocio
+    - Fijación de precios para servicios
+    - Estrategias basadas en valor para servicios profesionales
+
+### Consultor por Producto
+
+***Universidad Católica Boliviana - UCB*** [Feb 2023 -- Jun 2023]{.cvdate}
+
+Elaboración del análisis estadístico descriptivo para la medición de competencias básicas en el desarrollo de carreras STEM. Proyecto: "Construyendo políticas públicas para una participación efectiva de las mujeres en los campos STEM en Bolivia." Incluye:
+
+-   Análisis descriptivo de la línea base de indicadores de medición de competencias básicas en el desarrollo de carreras STEM.
+-   Comparación mediante contrastes de hipótesis las dimensiones según variables de segmentación en los estudiantes universitarios.
+-   Visualización mediante mapas perceptuales las habilidades blandas en la población universitaria.
+
+### Científico de Datos
+
+***Unión Agronegocios*** [Mar 2021 -- Jun 2022]{.cvdate}
+
+Desarrollo de modelos de optimización de precios y estimación de la demanda. Implementación de dashboards en Power BI para las diferentes unidades de negocio. Incluye:
+
+-   Implementación del algoritmo A-priori para análisis de transacciones y productos.
+-   Desarrollo del método de segmentación de clientes RFM (Recency Frequency Monetary).
+-   Análisis de la Curva-S para determinar el ciclo de vida de los productos desde el punto de vista comercial.
+
+### Instructor en Ciencia de Datos
+
+***10x Faster con R*** [Feb 2018 -- Ene 2021]{.cvdate}
+
+Elaboración y formador en el primer programa de capacitación en R en Bolivia. El programa incluye: Estadística aplicada con R, Análisis de regresión simple y múltiple. Automatización de Reportes Excel con R. Modelos de optimización de redes de transporte y logística con Excel. Análisis de Componentes Principales (PCA) y Análisis Factorial.
+
+### Business Quality Assurance
+
+***Telecel S.A. (Tigo)*** [Feb 2010 -- Mar 2017]{.cvdate}
+
+Evaluación, monitoreo y análisis de transacciones de clientes orientadas a la gestión de calidad y procesos para la certificación en la norma COPC.
+
+### Agente de Call Center
+
+***Nuevatel PCS de Bolivia (Viva)*** [May 2008 -- Ene 2010]{.cvdate}
+
+Proporcionar ayuda y asistencia en transacciones a clientes y usuarios. 
+
+## SEMINARIOS Y TALLERES
+
+-   Charla: Presentación Proyecto Pricing canal de Youtube de España - **_InfluExcel_**
+-   Docente invitado: Decisiones rentables de precios - **_CENACE UPSA_**
+-   Docente invitado: Diplomado en Estrategia de Fijación de Precios - **_Universidad NUR_**
+-   Experto invitado: Materia: Investigación de Mercado I - **_UPSA_**
+-   Experto invitado: Maestría en marketing - **_UAGRM Business School_**
+-   Experto invitado: Diplomado en Marketing Digital E-business - **_UNIFRANZ_**
+-   Charla: Reimagina tu Modelo de Negocio
+-   Charla: Quiero Ser Científico de Datos   
+
+## PUBLICACIONES
+
+-   Autor libro: Power Pivot: De principiante a experto [Nov 2024]{.cvdate}
+-   Autor Compendio: Funciones en Lenguaje R para el Análisis de Precios y Gestión Comercial [Ago 2022]{.cvdate}
+
+

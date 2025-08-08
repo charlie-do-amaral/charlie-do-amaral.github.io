@@ -2,9 +2,9 @@
 title: "Ideas simples en un mundo complejo"
 ---
 
-Este espacio resume las **"pepitas de oro"** con las que me he cruzado a lo largo de mi experiencia profesional y me brinda la oportunidad de compartirlo con usted. Básicamente, se basa en recopilaciones de los temás más relevantes en `Negocio`, `Finanzas`, `Design thinking`, `Estrategia` entre otros.
+Este espacio resume las [pepitas de oro]{.highlight} con las que me he cruzado a lo largo de mi experiencia profesional y me brinda la oportunidad de compartirlo con usted. Básicamente, se basa en recopilaciones de los temás más relevantes en `Negocio`, `Finanzas`, `Design thinking`, `Estrategia` entre otros.
 
-Espero que el contenido que encuentre aquí le ayude a comprender lo que más importa, dicho de otro modo, dejar de centrarse en el CÓMO sin antes evaluar el `POR QUÉ`.
+Espero que el contenido que encuentre aquí le ayude a comprender lo que más importa, dicho de otro modo, dejar de centrarse en el CÓMO sin antes evaluar el [POR QUÉ]{.circle}.
 
 ![Las soluciones tradicionales a menudo contradicen lo que más importa: el POR QUÉ.](targets.png)
 

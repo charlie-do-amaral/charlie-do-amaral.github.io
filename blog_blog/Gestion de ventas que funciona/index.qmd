@@ -15,11 +15,11 @@ about:
 
 No se puede gestionar una respuesta rentable a los cambios del mercado a menos que se comprenda el comportamiento cambiante de los compradores y sus correspondientes impactos en las tareas de desarrollo de negocio.
 
-Es cierto que, esto de "gestionar", no es una actividad sencilla, especialmente cuando se trabaja en una industria plagada de mitos, suposiciones sin analizar y modas pasajeras.
+Es cierto que, esto de ["gestionar"]{.highlight}, no es una actividad sencilla, especialmente cuando se trabaja en una industria plagada de mitos, suposiciones sin analizar y modas pasajeras.
 
-Vender implica una compleja combinación de factores: una [estrategia coherente]{.highlight}, [prácticas de contratación]{.highlight}, [incentivos relevantes]{.highlight}, y una [gestión continua del desempeño]{.highlight} que impulse los comportamientos adecuados ante los numeros cambios que escapan al control de su empresa. **Puede negar la complejidad, pero seguirá ahi!**
+Vender implica una compleja combinación de factores: una **estrategia coherente**, **prácticas de contratación**, **incentivos relevantes**, y una **gestión continua del desempeño** que impulse los comportamientos adecuados ante los numeros cambios que escapan al control de su empresa. Puede negar la complejidad, pero seguirá ahi!.
 
-:::{.box}
+::: box
 El propósito de este post es ayudarle a distinguir las señales del ruido y aclarar las decisiones y acciones clave. Mi intensión es ayudarle a usted como vendedor, gerente de ventas, o incluso comprador, a mejorar la productividad y los resultados.
 :::
 
@@ -31,7 +31,7 @@ Durante muchas décadas, la compra se ha enmarcado típicamente en términos de 
 
 Es fundamentalmente un proceso de adentro hacia afuera, y los sistemas de gestión de relaciones con el cliente (CRM) están ahí para proporcionar datos sobre el progreso (o no) a través del embudo de ventas de esa empresa: las métricas del "pipeline" que dominan las conversaciones sobre ventas (blogs, ventas, seminarios de capacitación e iniciativas de coaching).
 
-Pero la investigación indica una realidad de compra [diferente]{.circle}: `en lugar de moverse secuencialmente a través de un embudo, los compradores ahora trabajan a través de flujos de actividad paralelos para tomar una decisión de compra`. Etiquetemos estos flujos de actividad como [explorar]{.highlight}, [evaluar]{.highlight}. [interactuar]{.highlight} y [experimentar]{.highlight}.
+Pero la investigación indica una realidad de compra [diferente]{.circle}: `en lugar de moverse secuencialmente a través de un embudo, los compradores ahora trabajan a través de flujos de actividad paralelos para tomar una decisión de compra`. Etiquetemos estos flujos de actividad como **explorar**, **evaluar**. **interactuar** y **experimentar**.
 
 #### Explorar
 
@@ -76,25 +76,24 @@ La forma de interpretar estos datos coincide con el chiste de dos cazadores pers
 Competencias que se consideraban esenciales hace solo una década, perdieron prioridad en la segunda década del siglo XXI.
 
 ### Gestión multicanal
-¿Deberíamos interactuar en línea o en persona, a través de la web o a través de los vendedores en nuestras estrategias de ventas? [Respuesta:]{.circle} [Sí]{.highlight}. Los clientes están desvinculando muchos canales tradicionales a medida que cambian de canal. Por lo tanto, evite una falsa dicotomía; enfrente los hechos y las implicaciones de la salida al mercado para su negocio. 
+
+¿Deberíamos interactuar en línea o en persona, a través de la web o a través de los vendedores en nuestras estrategias de ventas? Respuesta: [Sí]{.circle}. Los clientes están desvinculando muchos canales tradicionales a medida que cambian de canal. Por lo tanto, evite una falsa dicotomía; enfrente los hechos y las implicaciones de la salida al mercado para su negocio.
 
 ### Su hoja de ruta
-La venta eficaz es, en última instancia, un resultado organizacional dónde las prácticas de [gestión del personal]{.highlight} y del desempeño se ajustan al [proceso de ventas]{.highlight}, la [estrategia de precios]{.highlight} y las [decisiones]{.highlight} sobre los socios de salida al mercado. A Andrew Carnigie le preguntaron una vez: ¿Qué elemento es más importante para el éxito de una empresa: el cerecbro, el capital o la mano de obra? Su respuesta:
+
+La venta eficaz es, en última instancia, un resultado organizacional dónde las prácticas de **gestión del personal** y del desempeño se ajustan al **proceso de ventas**, la **estrategia de precios** y las decisiones de los **socios** sobre salida al mercado. A Andrew Carnigie le preguntaron una vez: ¿Qué elemento es más importante para el éxito de una empresa: el cerecbro, el capital o la mano de obra? Su respuesta:
 
 > "¿Cuál es la pata más importante de un taburete de tres patas?" Es la combinación de personas, procesos, precios y socios lo que impulsa la productividad de las ventas.
 
-<p class="text-success">[Personas]{.circle}. Aquién contrata, cómo y qué se hace para capacitar y desarrollar a los vendedores es más importante y costoso que nunca. En conjunto, contratar personal de ventas suele ser más costoso que muchas decisiones de inversión de capital (Capex) en las empresas, y las empresas ya gastan un 20% más per cápita en capacitación de ventas que en otras funciones.</p>
+* **Personas.** Aquién contrata, cómo y qué se hace para capacitar y desarrollar a los vendedores es más importante y costoso que nunca. En conjunto, contratar personal de ventas suele ser más costoso que muchas decisiones de inversión de capital (Capex) en las empresas, y las empresas ya gastan un 20% más per cápita en capacitación de ventas que en otras funciones.
 
-<p class="text-info">[Proceso]{.circle}. Determinar las opciones para construir y reconstruir un proceso replicable de esfuerzos de ventas y sus implicaciones para la selección de clientes, los patrones de llamadas, el análisis de conversiones, el desarrollo de un perfil de ventas, la comprensión y el uso de datos para comprender los procesos de compra e informar sobre las actividades de ventas relevantes.</p>
+* **Proceso.** Determinar las opciones para construir y reconstruir un proceso replicable de esfuerzos de ventas y sus implicaciones para la selección de clientes, los patrones de llamadas, el análisis de conversiones, el desarrollo de un perfil de ventas, la comprensión y el uso de datos para comprender los procesos de compra e informar sobre las actividades de ventas relevantes.
 
-<p class="text-success-emphasis">[Pricing]{.circle}. Este es el momento más decisivo en los negocios. La fijación de precios puede generar o destruir utilidades en un panorama cambiante, la importancia de las pruebas de precios en los mercados actuales, ricos en información, y cómo vincular los precios con su propuesta de valor, modelo de ventas y comportamiento de venta.</p>
+* **Pricing.** Este es el momento más decisivo en los negocios. La fijación de precios puede generar o destruir utilidades en un panorama cambiante, la importancia de las pruebas de precios en los mercados actuales, ricos en información, y cómo vincular los precios con su propuesta de valor, modelo de ventas y comportamiento de venta.
 
-<p class="text-info-emphasis">[Socios]{.circle}. Vender ahora también implica trabajar con socios de canal que influyen durante el proceso de compra y después de la venta.Las opciones han aumentado, al igual que la complejidad de la gestión. Debe analizar los componentes clave del diseño de canales y proporcionar directrices y diagnósticos para realinear el papel de los canales en los programas de ventas.</p>
+* **Socios.** Vender ahora también implica trabajar con socios de canal que influyen durante el proceso de compra y después de la venta.Las opciones han aumentado, al igual que la complejidad de la gestión. Debe analizar los componentes clave del diseño de canales y proporcionar directrices y diagnósticos para realinear el papel de los canales en los programas de ventas.
 
-<p class="text-success">[Productividad]{.circle}. Debido al papel central de la adquisicón de clientes en una empresa, los cambios en los requerimientos de ventas tienen implicaciones organizacionales más amplias. Sin embargo, muchos líderes de alto nivel no están al tanto de las actividades de sus colegas que atienden al cliente. Debe analizar las razones y las medidas que, como líder puede tomar para cerrar esta brecha y mejorar las productividad de las ventas.</p>
+* **Productividad.** Debido al papel central de la adquisicón de clientes en una empresa, los cambios en los requerimientos de ventas tienen implicaciones organizacionales más amplias. Sin embargo, muchos líderes de alto nivel no están al tanto de las actividades de sus colegas que atienden al cliente. Debe analizar las razones y las medidas que, como líder puede tomar para cerrar esta brecha y mejorar las productividad de las ventas.
 
 La forma de lograr ese ajuste, dependerá del contexto particular de su empresa. Pero mi consejo es empezar por las personas.
-
-
-
 
