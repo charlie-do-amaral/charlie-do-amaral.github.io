@@ -1,0 +1,13 @@
+---
+title: "Soluciones"
+format:
+  html:
+    toc: true
+---
+
+## Subtítulo
+
+* Creación de blog profesional
+* Estudio pricing PSM
+
+

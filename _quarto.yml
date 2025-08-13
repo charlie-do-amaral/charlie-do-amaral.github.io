@@ -11,14 +11,25 @@ website:
         href: index.qmd
       - text: Blog
         href: blog_blog.qmd
-      - text: Servicios
-        href: servicios.qmd
+      - sidebar:servicios
+      - text: Soluciones
+        href: soluciones.qmd      
+
     right:
       - CV.qmd
       - about.qmd
       - icon: linkedin
         text: LinkedIn
         href: https://www.linkedin.com/in/charlie-arturo-do-amaral-becerra/
+  page-footer:
+    right: "Este sitio web está construido con ❤️ por Charlie Do Amaral. Licencia: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)." 
+
+  sidebar:
+    - id: servicios
+      title: "Servicios"
+      contents:
+        - personas.qmd
+        - empresas.qmd
 
 format:
   html:

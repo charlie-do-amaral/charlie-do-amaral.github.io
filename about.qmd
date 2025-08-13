@@ -7,8 +7,6 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/charlie-arturo-do-amaral-becerra/
-
-
 ---
 
-Contenido aquí
+🧑‍💻Soy investigador interdisciplinario. Trabajo en la intersección de las ciencias sociales, la estadística computacional y la tecnología. Mis múltiples funciones incluyen la de consultor en pricing y estrategia competitiva, científico de datos, docente y autor.

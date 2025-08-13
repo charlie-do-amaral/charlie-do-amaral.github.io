@@ -100,7 +100,10 @@ Proporcionar ayuda y asistencia en transacciones a clientes y usuarios.
 
 ## PUBLICACIONES
 
--   Autor libro: Power Pivot: De principiante a experto [Nov 2024]{.cvdate}
--   Autor Compendio: Funciones en Lenguaje R para el Análisis de Precios y Gestión Comercial [Ago 2022]{.cvdate}
+-   Guía práctica: Los Dioses del Business Intelligencia Parte I - Una guía para dominar SSIS, SSAS y SSRS [Sep 2025]{.cvdate}
+-   Libro: Excel, la nueva frontera [Jun 2024]{.cvdate}
+-   Libro: Power Pivot: De principiante a experto [Nov 2024]{.cvdate}
+-   Compendio: Funciones en Lenguaje R para el Análisis de Precios y Gestión Comercial [Ago 2022]{.cvdate}
+
 
 
