@@ -1,11 +1,102 @@
 ---
 title: "Personas"
+subtitle: "Descubre cómo puedo proporcionarte valor"
 format:
   html:
     toc: true
+
 ---
 
-## Subtítulo
+## Alineación constructiva
 
-**Visual Thinking / Conceptual Illustration / Information Design** by yours truly.
+Al diseñar un plan de estudios, un profesor tiene que tener en cuenta las interrelaciones entre los distintos aspectos de un plan de estudio para que la enseñanza sea eficaz.
+
+Para todos los coursos que imparto, utilizo un marco de diseño curricular que se considera eficaz para gestionar la interrelación entre los aspectos importantes importantes de un plan de estudio. Se denomina alineación constructiva.
+
+* **_Constructiva_** significa que los alumnos son los únicos creadores de su propio conocimiento. Lo que significa que no es algo que se pueda impartir o transmitir del profesor a los alumnos.
+
+* **_Alineación_** significa que el trabajo de un profesor es pensar en lo que hace falta para que los alumnos logren resultados del aprendizaje y, a continuación, diseñar las experiencias de aprendizaje para maximizar la posibilidad de que los alumnos logren los resultados previstos.
+
+## Cursos
+
+::: {.callout-tip collapse="true"}
+## Optimización de la Estrategia de Pricing
+
+<p class="text-success">Beneficios clave:</p>
+
+* Desarrollar los conceptos fundamentales para elaborar estrategias de pricing óptimas
+* Tomar decisiones inteligentes de fijación de precios
+* Desarrollar una perspectiva estratégica aplicable sobre el pricing
+* Aplicar de forma práctica estrategias de pricing según la estructura de mercado en el que se desempeña una empresa
+
+<p class="text-success">A quién está dirigido?:</p>
+
+* Este curso está diseñado para líderes de negocio (gerentes de marketing, ventas, revenue management, finanzas), profesionales a nivel directivo.
+* Analistas de pricing, ventas, marketing que son responsables del desempeño comercial y financiero de su organización.
+
+<p class="text-success">Contenido:</p>
+
+Analizaremos la fijación de precios a través de tres lentes; costo y economía, valor para el cliente y, mercado y competencia.
+
+Desde la perspectiva de costo y economía, aprenderá:
+
+* Cómo aplicar los conocimientos de economía básica para tomar mejores decisiones de precios
+* Calcular la elasticidad-precio para determinar el impacto del precio en la demanda
+* Cómo aplicar la fijación de precios de costo más margen (Cost-Plus)
+
+Desde la perspectiva de valor para el cliente, aprenderá:
+
+* Cómo aprovechar la técnica de fijación de precios basada en valor
+* Cómo medir la disposición a pagar de los clientes
+* Aprender a crear segmentación de clientes basada en valor
+
+Desde la perspectiva de mercado y competencia, aprenderá:
+
+* Cómo comprender el entorno competitivo de una empresa en el mercado
+* Cómo elaborar estrategias de pricing de acuerdo a las diferentes estructuras de mercado
+
+Si deseas tener más detalles del curso, incluyendo el precio, descarga el brochure:
+
+{{< downloadthis files/pdf_example.pdf dname=File label="Descarga brochure" icon=file-earmark-pdf type=success >}}
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Digital Pricing Strategy
+
+Set values 
+
+
+
+:::
+
+
+::: {.callout-tip collapse="true"}
+## Fijación de Tarifas (Fees) para Servicios Profesionales
+
+Set values 
+
+:::
+
+## Workshops
+
+:::{.callout-note collapse="true" appearance="simple"}
+## Pretium - The Workshop
+
+Set value
+
+{{< downloadthis files/pdf_example.pdf dname=File label="Download the pdf" icon=file-earmark-pdf type=success >}}
+
+:::
+
+## Mentorías
+
+
+
+::: {.callout-tip title="Tip with Title"}
+This is a callout with a title.
+:::
+
+
+
 

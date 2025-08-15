@@ -1,6 +1,9 @@
 ---
 title: "Empresas"
-format:
-  html:
-    toc: true
+subtitle: "Descubre cómo puedo proporcionar valor a tu empresa"
+format: sketchy-html
+toc: true
 ---
+
+
+
