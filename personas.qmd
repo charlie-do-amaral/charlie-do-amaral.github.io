@@ -20,7 +20,7 @@ Para todos los coursos que imparto, utilizo un marco de diseño curricular que s
 ## Cursos
 
 ::: {.callout-tip collapse="true"}
-## Optimización de la Estrategia de Pricing
+## Optimización de la Estrategia de Precios
 
 <p class="text-success">Beneficios clave:</p>
 
@@ -57,16 +57,7 @@ Desde la perspectiva de mercado y competencia, aprenderá:
 
 Si deseas tener más detalles del curso, incluyendo el precio, descarga el brochure:
 
-{{< downloadthis files/pdf_example.pdf dname=File label="Descarga brochure" icon=file-earmark-pdf type=success >}}
-
-:::
-
-::: {.callout-tip collapse="true"}
-## Digital Pricing Strategy
-
-Set values 
-
-
+{{< downloadthis files/Optimizacion_Estrategia_Pricing.pdf dname=File label="Descarga brochure" icon=file-earmark-pdf type=success >}}
 
 :::
 
@@ -74,29 +65,121 @@ Set values
 ::: {.callout-tip collapse="true"}
 ## Fijación de Tarifas (Fees) para Servicios Profesionales
 
-Set values 
+El objetivo del curso es brindarle las herramientas fundamentales para que usted, como profesional que brinda sus servicios ya sea de forma directa o como consultor, pueda evolucionar a la fijación de tarifas y estrategias basadas en valor.
+
+<p class="text-success">Objetivo:</p>
+
+El objetivo del curso es responder a las preguntas más críticas que tienen los profesionales que brindan sus servicios de forma independiente respecto a la relación con el cliente, cómo establecer su valor único y por consiguiente, cómo cobrar por sus servicios. 
+
+* Cómo crear y capturar valor
+* Aprender a elaborar propuestas que permitan formar verdaderas alianzas entre el consultor y el cliente
+* Conocer los pasos críticos en el proceso de adquisición de negocios de consultoría
+* Aprender las técnicas para abordar las objeciones del comprador económico
+* Cómo establecer tarifas (fees) basadas en valor
+
+<p class="text-success">A quién está dirigido?:</p>
+
+Este curso está especialmente pensado para profesionales que brindan o tienen pensado brindar sus servicios de manera independiente, como consultores, asesores financieros, abogados, auditores, freelancers, etc. 
+
+<p class="text-success">Contenido:</p>
+
++ **La importancia del valor**
+  - Qué es valor y cómo deternminarlo en los proyectos
+  - El compromiso del comprador
+
++ **Secuencia de aquisición de negocios de consultoría**
+
++ **Propuesta de valor**
+  - Características de propuestas basadas en valor
+  - Cómo reconocer propuestas que no aportan valor
+
++ **Establecer tarifas (fees) basadas en valor**
+  - Cómo establecer su valor único
+  - Cómo aumentar la tasa de aceptación de su propuesta
+  - Formas de aumentar las tarifas
+
+  
+<p class="text-success">Duración:</p>
+
+3 sesiones (2hrs/sesión)
+
+Este curso representa una propuesta de valor única para usted, algo que ningún consultor le va a enseñar.
+
+Si deseas tener más detalles del curso, incluyendo el precio, descarga el brochure:
+
+{{< downloadthis files/Fijacion_De_Tarifas_Para_Servicios_Profesionales.pdf dname=File label="Descarga brochure" icon=file-earmark-pdf type=success >}}
 
 :::
 
-## Workshops
-
-:::{.callout-note collapse="true" appearance="simple"}
-## Pretium - The Workshop
-
-Set value
-
-{{< downloadthis files/pdf_example.pdf dname=File label="Download the pdf" icon=file-earmark-pdf type=success >}}
-
-:::
 
 ## Mentorías
 
+Mentoría significa enseñar y/o asesorar. El servicio incluye:
+
+* Recibir orientación personalizada, diseñada específicamente para satisfacer tus necesidades y objetivos individuales
+* Brindar orientación valiosa y apoyo
+* Seguimiento del progreso: Supervisar y evaluar la relación de mentoría y el éxito del programa
+* Biblioteca de recuros y herramientas: Acceso a un repositorio de recursos; más de 2,000 libros, pantillas y software especializado
+* Orientación flexible: Sea para principiantes o gerentes
+
+Como mentor, puedo apoyarle en las siguientes áreas o dominios de interés:
+
+::: {.callout-note collapse="true"}
+## Mentoría en el diseño de su modelo de negocio o propuesta de valor
+
+El servicio está diseñado para ayudarle en la comprensión de su modelo de negocio. Responde a las siguientes preguntas:
+
+* ¿Quiénes son sus clientes?
+* ¿Qué valor relevante para el cliente quiere crear?
+* ¿Cómo crea los servicios en el marco de creación de valor?
+* ¿Cómo extrae el valor creado?
+
+Básicamente, operamos en cuatro dimensiones principales de un modelo de negocio:
+
+1. **Clientes objetivo**
+2. **Beneficio (valor para el cliente)**
+3. **Arquitectura de creación de valor**
+    - En base a qué competencias y recursos surge el beneficio para sus clientes?
+    - Con qué socios de creación de valor trabaja?
+    - Quién se hace cargo de qué procesos, en qué partes de la cadena de valor (desarrollo, producción, tecnología, logística,etc)?
+    - Cómo diseña las interfaces con clientes y proveedores?
+4. **Modelo de utilidad**
+    - Cómo gana dinero?
+    - Cómo extrae el valor creado para el cliente?
 
 
-::: {.callout-tip title="Tip with Title"}
-This is a callout with a title.
 :::
 
 
+::: {.callout-note collapse="true"}
+## Mentoría en la construcción de un modelo de ventas
+
+Toda empresa o emprendimiento tiene un modelo de ventas basado en decisiones implícitas y explícitas. La cuestión radica en que si su modelo de ventas aborda eficazmente a los clientes objetivo tal como compran hoy, no ayer, y si refleja las decisiones estratégicas correctas en un proceso que pueda comunicarse y escalarse.
+
+El servicio que proporciono contempla los componentes esenciales de un modelo de ventas coherente respondiendo a las siguientes preguntas:
+
+* **Criterios de selección y calificación de clientes**
+    - Quiénes son sus clientes principales, dado el alcance su estrategia de negocio?
+    - Cómo puede identificar y acceder a las personas adecuadas en esos clientes?
+    - Cómo puede desarrollar y comunicar un perfil del acuerdo relevante al equipo de ventas y a otros miembros de la empresa?
+* **Claridad sobre los compradores y el proceso de compra en los clientes objetivo**
+    - El modelo de ventas alinea las actividades de prospección y ventas con los perfiles del comprador (buyer persona) y los viajes de compra (buying journey(s)) relevantes?
+    - Cuáles son las métricas relevantes para evaluar las actividades de venta en ese modelo?
+* **Economía de go-to-market**
+    - Qué implica el modelo de ventas en términos de costo de adquisición de clientes, costo de atender a diferentes segmentos y cuentas, ciclo de venta y tiempo de recuperación efectivo para la empresa, requisitos de educación del cliente?
+
+No entregue su modelo de ventas a decisiones implícitas, apóyese en decisiones explícitas que le permitan concretar su estrategia eficazmente.
+
+
+:::
+
+
+::: {.callout-note collapse="true"}
+## Mentoría en temas específicos o proyectos
+
+El servicio incluye la asesoría en casos específicos y particulares en las áreas de pricing, data science y analitycs, análisis competitivo, análisis estratégico, etc.
+
+
+:::
 
 
