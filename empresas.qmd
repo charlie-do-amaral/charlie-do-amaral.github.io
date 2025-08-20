@@ -1,24 +1,109 @@
 ---
 title: "Empresas"
 subtitle: "Descubre cómo puedo proporcionar valor a tu empresa"
-format: sketchy-html
-toc: true
+format:
+  html:
+    toc: true
 ---
 
+## Adquirir Servicios de Consultoría
 
+Mis servicios de consultoría están disponibles para clientes *emprendedores*, *empresas medianas* y *corporaciones*.
 
+Los proyectos de consultoría deben ser verdaderas alianzas entre el consultor y el cliente. Esto comienza antes de establecer cualquier acuerdo. Para todos mis clientes, sigo la siguiente secuencia de pasos:
 
+-   ***Valores compartidos:*** Son esas creencias de negocio comunes que nos permitirán trabajar de manera efectiva. Básicamente se refiere a alinear nuestros principios y valores.
+-   ***Relación:*** Parto del principio que la relación con mi cliente se base en la confianza, en la que ambos nos sintamos cómodos el uno con el otro, podamos ser honestos y compartir puntos de vista y asistencia mutua.
+-   ***Acuerdo conceptual:*** Acuerdo entre usted y mi persona sobre los objetivos del proyecto, expresados como resultados de negocio, métricas, medidas de progreso hacia los objetivos.
+-   ***Implementación:*** Son los detalles del proyecto que deberá conocer para asegurarnos de su cumplimiento.
+-   ***Resultados:*** Claridad en lo que usted espera como valor recibido del proyecto.
 
+::: {.callout-tip collapse="true"}
+## Consultoría en Estrategia de Pricing
 
+El programa de implementación de estrategia de pricing está optimizado para ser compartido con su empresa en un workshop de 1 día.
+
+El objetivo es familiarizar a los participantes del taller con los métodos modernos de fijación de precios y elaborar listas de tareas específicas.
+
+![](./images/Cronograma_workshop.png)
+
+La preparación del taller incluyó análisis de precios internos y una breve encuesta a los clientes. De igual forma incluyó debates con gerentes y representantes de ventas sobre los temas a tratar en el taller. Los proyectos de consultoría de gestión de precios pueden durar varios meses.
+
+El éxito de la gestión de precios depende en última instancia de la implementación. Las tareas son definir claramente las responsabilidades relacionadas con los precios, diseñar los sistemas de incentivos que se alineen con los objetivos corporativos, comunicar los precios de manera efectiva y, finalmente, monitorear la realización de los precios.
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Consultoría en Ciencia de Datos y Analytics
+
+La consultoría en Ciencia de Datos se basa en el modelo de referencia CRISP-DM desarrollado por IBM. El modelo CRISP-DM es usado en más del 85% de los proyectos de Ciencia de Datos. A continuación le presento un pequeño resumen que le dará una idea de como llevo a cabo las consultorías en Ciencia de Datos.
+
+IBM ofrece una certificación oficial denominada: "_Data Science Methodologies_", la cuál he conseguido en el año 2021 como parte de mi preparación para científico de datos. Puede ver mi insignia en [Badge de Certificación](https://www.credly.com/badges/e075d786-957c-4573-9e3e-b3cd72bd4108?source=linked_in_profile)
+
+CRISP-DM proporciona el modelo de proceso y una descripción general del ciclo de vida de un proyecto de minería de datos. Contiene las fases de un proyecto, sus respectivas tareas y las relaciones entre estas tareas.
+
+**_Comprensión del negocio_**
+
+Esta fase inicial se enfoca en comprender los objetivos y requisitos del proyecto desde una perspectiva de negocio, y luego convertior este conocimimento en una definición del problema de minería de datos y un plan preliminar diseñado para lograr los objetivos.
+
+**_Comprensión de los datos_**
+
+La fase de comprensión de datos comienza con la recopilación inicial de datos y continúa con actividades que le permiten familiarizarse con los datos, identificar problemas de calidad de datos y descubrir los primeros conocimientos sobre los datos.
+
+**_Preparación de datos_**
+
+La fase de preparación de datos cubre todas las actividades necesarias para construir el conjunto de datos final (datos que se introducirán en las herramientas de modelado) a partir de datos sin procesar. Es probable que las tareas de preparación de datos se realicen varias veces y sin ningún orden prescrito. Las tareas incluyen la selección de tablas, registros y atributos, así como la transformación y limpieza de datos para herramientas de modelado.
+
+**_Modelado_**
+
+En esta fase, se seleccionan y aplican varias técnicas de modelado, y sus parámetros se calibran a valores óptimmos. Por lo general, existen varias técnicas para el mismo tipo de problema de minería de datos.
+
+**_Evaluación_**
+
+En esta etapa del proyecto, ya hemos creado uno o varios modelos que cumplen con aspectos de calidad desde la perspectiva del análisis de datos. Aquí, evaluamos ese modelo a fondo revisando los pasos para crearlo, para asegurarnos de que el modelo logre correctamente los objetivos de negocio.
+
+**_Implementación_**
+
+La creación del modelo generalmente no es el final del proyecto. Según los requerimientos, la fase de implementación puede ser tan simple como generar un reporte o tan compleja como implementar un proceso de extracción de datos repetible en toda la empresa.
+
+:::
 
 ## Workshops
 
-:::{.callout-note collapse="true" appearance="simple"}
+::: {.callout-note collapse="true" appearance="simple"}
 ## Pretium - The Workshop
 
-Set value
+**Pretium** es un taller de pricing para empresas medianas con el objetivo principal de que los participantes conozcan los pilares fundamentales del pricing (ámbito económico, psicológico y marketing) y desarrollen la capacidad de elaborar estrategias prácticas para aplicar en su compañía.
+
+> Si no lo puedes explicar de forma sencilla, es porque aún no lo haz entendido bien - Albert Einstein
+
+<p class="text-success">Características</p>
+
++ **_User-friendly:_** Contenido especialmente elaborado para disminuir la fricción que genera una presentación en PowerPoint o una hoja de cálculo de Excel: imágenes, textos, gráficas amigables, con colores pasteles o suaves. Se evita el uso de líneas rígidas. Se respalda en la simplicidad, con un lenguaje fácil de comprender.
+
+![](./images/Pretium_1.png)
+
++ **_Teoría y práctica:_** El taller sigue la filosofía de _liderazgo participativo_. La metodología lleva a los participantes a través de una serie de pasos para procesar la actividad de aprendizaje.
+    - _Paso 1:_ Establecer la actividad de aprendizaje (el tema)
+    - _Paso 2:_ Los alumnos participan de la actividad de aprendizaje
+    - _Paso 3:_ Los alumnos comparten e interpretan sus reacciones
+    - _Paso 4:_ Los alumnos identifican conceptos
+    - _Paso 5:_ Los alumnos aplican conceptos a sus propias situaciones   
+
+Fue un reto articular el taller de esta forma. Si fuera un taller de ventas o coaching, o similar, esto sería muy fácil de lograr, con las cientos de actividades disponibles en estos ámbitos, pero en pricing es diferente, estamos hablando de hacer comprender al participante teoría económica (función de respuesta al precio, excedente del consumidor, curva de demanda, etc) haciendo un uso eficiente del tiempo.
+
+![](./images/Pretium_2.png)
+
++ **_Foco en resultados, no reuniones:_** El trabajo conjunto de los participantes del taller es aprovechado por el negocio (se entrega un informe de las actividades que fueron resueltas por los participantes). Esto le srive a la empresa como punto de partida para generar sus propias estrategias de pricing.
++ **_Uso de mini-casos:_** En las actividades, los participantes resuelven una variedad de mini casos orientados en empresas conocidas de Bolivia. Por ejemplo, determinar objetivos de pricing, estrategias para aumentar la disposición a pagar del cliente, cómo aplicar la teoría de Veblen, etc.
+
+Si deseas tener más detalles del taller, incluyendo el precio, descarga el brochure:
 
 {{< downloadthis files/pdf_example.pdf dname=File label="Download the pdf" icon=file-earmark-pdf type=success >}}
 
 :::
+
+## Formación
+
+Los cursos y capacitaciones detallados en la sección de servicios para personas, aplican también para empresas.
 
