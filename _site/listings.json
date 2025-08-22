@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/soluciones.html",
+    "items": [
+      "/soluciones/pricing_analytics/index.html"
+    ]
+  },
+  {
     "listing": "/blog_blog.html",
     "items": [
       "/blog_blog/Gestion de ventas que funciona/index.html"

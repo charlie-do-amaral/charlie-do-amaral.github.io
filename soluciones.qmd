@@ -1,13 +1,10 @@
 ---
 title: "Soluciones"
-format:
-  html:
-    toc: true
+listing:
+  contents: soluciones
+  type: grid
 ---
 
-## Subtítulo
 
-* Creación de blog profesional
-* Estudio pricing PSM
 
 
