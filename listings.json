@@ -4,5 +4,11 @@
     "items": [
       "/blog_blog/Gestion de ventas que funciona/index.html"
     ]
+  },
+  {
+    "listing": "/soluciones.html",
+    "items": [
+      "/soluciones/pricing_analytics/index.html"
+    ]
   }
 ]
