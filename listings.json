@@ -9,7 +9,8 @@
     "listing": "/soluciones.html",
     "items": [
       "/soluciones/ubicaciones_competitivas/index.html",
-      "/soluciones/pricing_analytics/index.html"
+      "/soluciones/pricing_analytics/index.html",
+      "/soluciones/analisis_apriori/index.html"
     ]
   }
 ]

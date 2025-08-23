@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Charlie Do Amaral">
 
-<title>Las “Pepitas de oro” – Charlie Do Amaral</title>
+<title>Reglas de Asociación y Algoritmo Apriori – Charlie Do Amaral</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,30 +24,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/profile.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e8598f16e2e8569678ec72dec28d5406.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-3f9a1c916a924db677bb40662d79ac4d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-e8598f16e2e8569678ec72dec28d5406.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/profile.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e8598f16e2e8569678ec72dec28d5406.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-3f9a1c916a924db677bb40662d79ac4d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-e8598f16e2e8569678ec72dec28d5406.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,35 +72,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WZ5QTBHBQF"></script>
 
 <script type="text/javascript">
@@ -112,6 +81,12 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-WZ5QTBHBQF', { 'anonymize_ip': true});
 </script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: pricing_analytics_frontend.jpg;
+      }
+</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -143,7 +118,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -311,11 +286,11 @@ window.Quarto = {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Charlie Do Amaral</span>
     </a>
   </div>
@@ -326,11 +301,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog_blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog_blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -339,27 +314,27 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-servicios">    
         <li>
-    <a class="dropdown-item" href="./personas.html">
+    <a class="dropdown-item" href="../../personas.html">
  <span class="dropdown-text">Personas</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./empresas.html">
+    <a class="dropdown-item" href="../../empresas.html">
  <span class="dropdown-text">Empresas</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./soluciones.html"> 
+    <a class="nav-link" href="../../soluciones.html"> 
 <span class="menu-text">Soluciones</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html"> 
+    <a class="nav-link" href="../../CV.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Acerca de mí</span></a>
   </li>  
   <li class="nav-item">
@@ -376,77 +351,146 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Reglas de Asociación y Algoritmo Apriori</h1>
+            <p class="subtitle lead">Comprensión en profundidad del consumidor</p>
+                      </div>
+  </div>
+  <div class="quarto-title-meta">
+      <div>
+      <div class="quarto-title-meta-heading">Autor/a</div>
+      <div class="quarto-title-meta-contents">
+               <p>Charlie Do Amaral </p>
+            </div>
+    </div>
+      <div>
+      <div class="quarto-title-meta-heading">Fecha de publicación</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">1 de noviembre de 2024</p>
+      </div>
+    </div>
+    </div>
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmVudGFz">Ventas <span class="quarto-category-count">(1)</span></div></div></div>
-<!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Las “Pepitas de oro”</h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-page-left">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtro">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+  <ul>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#cómo-funciona-el-algoritmo-apriori" id="toc-cómo-funciona-el-algoritmo-apriori" class="nav-link" data-scroll-target="#cómo-funciona-el-algoritmo-apriori">Cómo funciona el algoritmo Apriori</a>
+  <ul class="collapse">
+  <li><a href="#medición-de-conjuntos-de-elementos" id="toc-medición-de-conjuntos-de-elementos" class="nav-link" data-scroll-target="#medición-de-conjuntos-de-elementos">Medición de conjuntos de elementos</a></li>
+  </ul></li>
+  <li><a href="#solución" id="toc-solución" class="nav-link" data-scroll-target="#solución">Solución</a></li>
+  <li><a href="#casos-de-uso" id="toc-casos-de-uso" class="nav-link" data-scroll-target="#casos-de-uso">Casos de uso</a>
+  <ul class="collapse">
+  <li><a href="#análisis-de-la-cesta-de-compra" id="toc-análisis-de-la-cesta-de-compra" class="nav-link" data-scroll-target="#análisis-de-la-cesta-de-compra">Análisis de la cesta de compra</a></li>
+  <li><a href="#sector-salud" id="toc-sector-salud" class="nav-link" data-scroll-target="#sector-salud">Sector salud</a></li>
+  <li><a href="#web-analytics" id="toc-web-analytics" class="nav-link" data-scroll-target="#web-analytics">Web analytics</a></li>
+  <li><a href="#finanzas" id="toc-finanzas" class="nav-link" data-scroll-target="#finanzas">Finanzas</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="VmVudGFz" data-listing-file-modified-sort="1755971566650" data-listing-reading-time-sort="7" data-listing-word-count-sort="1259">
-<div class="thumbnail"><a href="./blog_blog/Gestion de ventas que funciona/index.html" class="no-external">
+<!-- main -->
+<div class="quarto-about-marquee">
+  <div class="about-image-container">
+  </div>
+  <div class="about-contents">
+     <main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<img loading="lazy" src="./blog_blog/Gestion de ventas que funciona/01.png" class="thumbnail-image">
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog_blog/Gestion de ventas que funciona/index.html" class="no-external">Gestión de ventas que funciona!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog_blog/Gestion de ventas que funciona/index.html" class="no-external">Cómo vender en un mundo que no deja de cambiar</a>
-</div>
-<div class="listing-categories">
+<p><img src="apriori_1.png" class="img-fluid"></p>
+<section id="introducción" class="level2">
+<h2 data-anchor-id="introducción">Introducción</h2>
+<p>El algoritmo Apriori es un algoritmo de aprendizaje automático no supervisado que se utiliza para el aprendizaje de reglas de asociación. Este aprendizaje es una técnica de minería de datos que identifica patrones, conexiones y dependencias frecuentes entre diferentes grupos de elementos (conjuntos de elementos o itemsets) en los datos. Algunos casos de uso comunes son las predicción de enfermedades y los sistemas de recomendación, como el análisis de la cesta de compra para la industria del retail.</p>
+<p>El algoritmo itera los datos para identificar <span class="math inline">\(K\)</span> conjuntos de elementos, es decir, <span class="math inline">\(K\)</span> elementos que aparecen juntos con frecuencia. A continuación, utiliza los <span class="math inline">\(K\)</span> conjuntos de elementos para identificar los <span class="math inline">\(K+1\)</span> conjuntos de elementos. El algoritmo Apriori se basa en la idea de que añadir artículos a un grupo de compra frecuente solo puede reducir su frecuencia, no aumentarla. El proceso se basa en la propiedad Apriori, que establece que si un conjunto de elementos aparece con frecuencia en un conjunto de datos, todos sus subconjuntos deben ser frecuentes. Por el contrario, si un conjunto de elementos se identifica como poco frecuente, todos sus superconjuntos se consideran poco frecuentes.</p>
+<p>El algoritmo Apriori es aplicable a todo tipo de conjuntos de datos, especialmente a los generados por bases de datos transaccionales, y se utiliza a menudo para el análisis de la cesta de compra como apoyo a los sistemas de recomendación. Por ejemplo, al utilizar una plataforma de comercio electrónico que vende ropa y zapatos, un comprador busca zapatos y decide añadir un par de zapatos negros formales a su cesta de compra. El comprador observa entonces que la interfaz recomienda otros artículos, como calcetines. Una de las maneras en que funciona este sistema de recomendación es aprender los patrones de compra de los clientes y asociar artículos que probablemente se hayan comprado juntos.</p>
+<p><img src="apriori_2.png" class="img-fluid"></p>
+</section>
+<section id="cómo-funciona-el-algoritmo-apriori" class="level2">
+<h2 data-anchor-id="cómo-funciona-el-algoritmo-apriori">Cómo funciona el algoritmo Apriori</h2>
+<p>Cada uno de los pasos clave del algoritmo Apriori busca identificar conjuntos de elementos (<em>itemsets</em>) y todos sus posibles superconjuntos, buscando los más frecuentes para crear las reglas de asociación.</p>
+<p><strong>Paso 1: Generación de conjuntos de elementos frecuentes</strong></p>
+<p>El algoritmo primero identifica los elementos únicos, a veces denominados conjuntos de elementos, en el conjunto de datos junto con sus frecuencias. Luego, combina los elementos que aparecen juntos con una probabilidad superior a un umbral identificado en conjuntos de elementos candidatos y filtra los conjuntos de elementos poco frecuentes para reducir el costo computacional en los pasos posteriores. Este proceso, conocido como minería de conjuntos de elementos frecuentes, busca únicamente conjuntos de elementos con frecuencias significativas.</p>
+<p><strong>Paso 2: Expandir y luego “podar” conjuntos de elementos</strong></p>
+<p>Usando la propiedad Apriori, el algoritmo combina aún más los conjuntos de elementos frecuentes para formas conjuntos de elementos más grandes. Las combinaciones de conjuntos de elementos más grandes con menor probabilidad de “podan”. Esto reduce aún más el espacio de búsqueda y aumenta la eficiencia computacional.</p>
+<p><strong>Paso 3: Repetir los pasos 1 y 2</strong></p>
+<p>El algoritmo repite los pasos 1 y 2 hasta que se generen exhaustivamente todos los conjuntos de elementos frecuentes que cumplen con el umbral de probabilidad definido. Cada iteración genera asociaciones más complejas y completas en los conjuntos de elementos.</p>
+<p>Una vez que Apriori ha creado los conjuntos de elementos, se puede investigar la solidez de las asociaciones y relaciones generadas.</p>
+<section id="medición-de-conjuntos-de-elementos" class="level3">
+<h3 data-anchor-id="medición-de-conjuntos-de-elementos">Medición de conjuntos de elementos</h3>
+<p>El algoritmo Apriori utiliza las métricas de soporte (<em>support</em>), confianza (<em>confidence</em>) y elevación (<em>lift</em>) para definir sus criterios operativos y mejorar la eficiencia del rendimiento.</p>
+<section id="soporte" class="level4">
+<h4 data-anchor-id="soporte">Soporte</h4>
+<p>El soporte se define como la relación entre el número de veces que un elemento aparece en las transacciones y el número total de transacciones. Esta métrica define la probabilidad de ocurrencia de cada elemento individual en las transacciones. La misma lógica se puede aplicar a los conjuntos de elementos.</p>
+<p><span class="math display">\[S\left( I_{A} \right) = \frac{Occ(I_{A})}{TotalTransacciones}\]</span></p>
+<p>Donde <span class="math inline">\(I_{A}\)</span> es ítem A, <span class="math inline">\(Occ(I_{A})\)</span> es el número de ocurrencias del ítem A, y <span class="math inline">\(S(I_{A})\)</span> es el soporte del ítem A.</p>
+<p>Por ejemplo, en una tienda minorista, 250 de 2,000 transacciones diarias podrían incluir la compra de manzanas. Usando la fórmula:</p>
+<p><span class="math display">\[S\left( I_{Manzanas} \right) = \frac{250}{2000} = 0.125\]</span></p>
+<p>El resultado implica que hay un 12.5% de probabilidad de que se compraran manzanas ese día.</p>
+<p>Puede indicar un umbral de soporte mínimo requerido al aplicar el algoritmo Apriori. Esto significa que cualquier artículo o conjunto de artículos con un soporte inferior al mínimo especificado se considerará poco frecuente.</p>
+</section>
+<section id="confianza" class="level4">
+<h4 data-anchor-id="confianza">Confianza</h4>
+<p>La métrica de confiaza identifica la probabilidad de que los elementos o conjuntos de elementos se presenten juntos en los conjuntos de elementos. Por ejemplo, si hay dos elementos en una transacción, se asume que la existencia de uno conduce al otro. El primer elemento o conjunto de elementos es el <strong><em>Antecedente</em></strong> y el segundo, es el <strong><em>consecuente</em></strong>. Por lo tanto, la confianza se define como la razón entre el número de transacciones que tienen tanto el antecedente como el consecuente, y el número de transacciones que solo tienen el antecedente. Este escenario se representa como:</p>
+<p><span class="math display">\[C\left( A,B \right) = \frac{Occ(A\cap B)}{Occ(A)}\]</span></p>
+<p>Donde <span class="math inline">\(A\)</span> es el antecedente, <span class="math inline">\(B\)</span> es el consecuente y <span class="math inline">\(C(A,B)\)</span> es la confianza de que <span class="math inline">\(A\)</span> conduce a <span class="math inline">\(B\)</span>.</p>
+<p>Ampliando el ejemplo anterior, supongamos que hay 150 transacciones en las que se compraron manzanas y plátanos juntos. La confianza se calcula como:</p>
+<p><span class="math display">\[C\left( Manzanas,Plátanos \right) = \frac{150}{250} = 0.6\]</span></p>
+<p>Este resultado indica una probabilidad del 60% de que la compra de una manzana conduzca a la compra de un plátano. De igual manera, suponiendo un total de 500 transacciones de plátanos, la confianza en que la compra de un plátano conduza a la compra de una manzana se calcula como:</p>
+<p><span class="math display">\[C\left( Manzanas,Plátanos \right) = \frac{150}{500} = 0.3\]</span></p>
+<p>En este caso, solo hay un 30% de probabilidad de que la compra de un plátano conduzca a la compra de una manzana.</p>
+<p>Si bien la confianza no es una buena medida de probabilidad, no garantiza una asociación clara entre los elementos. El valor de la confianza puede ser alto por otras razones. Por ello, se aplica un umbral mínimo de confianza para descartar asociaciones poco probables durante la minería de datos con reglas de asociación.</p>
+</section>
+</section>
+</section>
+<section id="solución" class="level2">
+<h2 data-anchor-id="solución">Solución</h2>
+<p>La solución que brinda la consultoría es realizar el análsis exhaustivo de las transacciones, por ejemplo de un retail, para cierto rango de tiempo. El análisis permite identificar todos los conjuntos de elementos que ocurren con una frecuencia por encima de un determinado límite. El siguiente paso es convertir esos conjuntos de elementos frecuentes en reglas de asociación.</p>
+<p>Los resultados se le presentarán con un informe exhaustivo del análisis, incluyendo varias gráficas y métricas. Adicionalmente, se incluye una aplicación web que le permitirá parametrizar todos las métricas de soporte, confianza, reglas de asociación, etc.</p>
+<p>A continuación un ejemplo de una solución implementada para un cliente.</p>
+<p><img src="apriori_4.png" class="img-fluid"></p>
+<p><img src="apriori_5.png" class="img-fluid"></p>
+<p>La compañía descubrió un sin número de insights, por ejemplo, los clientes estaban comprando cierto producto que viene en dos presentaciones; una de ellas pequeña y la otra grande, sin embargo, no tenía mucho sentido que estuvieran juntos en el mostrador, sin embargo, esa creencia fué desmitificada por la herramienta. Para los clientes sí tenía mucho sentido comprar la presentación pequeña y la grande, esto fue muy evidente al mostrarse las reglas de asociación de la canasta de compras del cliente. Este fue una de los hallazgos bastante interesantes de la herramienta.</p>
+</section>
+<section id="casos-de-uso" class="level2">
+<h2 data-anchor-id="casos-de-uso">Casos de uso</h2>
+<p>Descubrir y agrupar conjuntos de elementos tiene múltiples aplicaciones, y el algoritmo Apriori se considera a veces la primera opción que los mineros de datos prueban debido a su versatilidad. Veamos algunos casos de uso comunes en diferentes industrias.</p>
+<section id="análisis-de-la-cesta-de-compra" class="level3">
+<h3 data-anchor-id="análisis-de-la-cesta-de-compra">Análisis de la cesta de compra</h3>
+<p>Una de las principales aplicaciones más comunes del algoritmo Apriori es el análisis de la cesta de compra. Los minoristas analizan el historial de compras de los clientes y optimizan la distribución de las tiendas colocando los artículos de compra frecuente cerca unos de otros o en el mismo estante. Las plataformas de comercio electrónico utilizan el algoritmo Apriori para estudiar las relaciones entre productos según las preferencias del usuario y el análisis de patrones de compra para crear sistemas eficientes de recomendación de clientes. Este mismo tipo de análisis puede utilizarse para optimizar la compra de servicios, por ejemplo, al elegir cursos de formación de un catálogo o recomendar otros tipos de cobertura al seleccionar un seguro.</p>
+</section>
+<section id="sector-salud" class="level3">
+<h3 data-anchor-id="sector-salud">Sector salud</h3>
+<p>El algoritmo Apriori puede utilizarse para encontrar reglas de asociación sólidas entre síntomas y enfermedades, mejorando así la eficiencia del diagnóstico y diseñando planes de tratamiento específicos. Por ejemplo, qué pacientes son prepensos a desarrollar diabetes, o el papel que la dieta o el estilo de vida desempeñan en la enfermedad. También puede ayudar a identificar factores asociados con reacciones adversas a medicamentos.</p>
+</section>
+<section id="web-analytics" class="level3">
+<h3 data-anchor-id="web-analytics">Web analytics</h3>
+<p>Los algoritmos Apriori también son aplicables en base de datos no transaccionales. Los analistas de datos suelen utilizan Apriori para la minería de datos de uso web, el análisis de datos de clics y la interpretación del comportamiento del usuario.</p>
+</section>
+<section id="finanzas" class="level3">
+<h3 data-anchor-id="finanzas">Finanzas</h3>
+<p>Otra aplicación común del algoritmo Apriori es la identificación de patrones fraudulentos en transacciones financieras. Identificar patrones de compra específicos como posiblemente fraudulentos permite a una institución financiera actuar con rapidez para suspender transacciones o contactar al titular de una cuenta.</p>
+<p>Y usted, tiene sus propios planes para implementar el algoritmo Apriori?. Póngase en contacto con mi persona para recibir más información de esta solución.</p>
 
-<div class="listing-category" onclick="window.quartoListingCategory('VmVudGFz'); return false;">Ventas</div>
 
+</section>
+</section>
+</main> 
+    <div class="about-footer"><div class="about-links">
+  <a href="https://www.linkedin.com/in/charlie-arturo-do-amaral-becerra/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
 </div>
-<div class="delink listing-description"><a href="./blog_blog/Gestion de ventas que funciona/index.html" class="no-external">
-No se puede gestionar una respuesta rentable a los cambios del mercado a menos que se comprenda el comportamiento cambiante de los compradores y sus correspondientes…
-</a></div>
 </div>
-<div class="metadata">
-<a href="./blog_blog/Gestion de ventas que funciona/index.html" class="no-external">
-</a>
+  </div>
 </div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No hay resultados</div>
-</div></main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -462,13 +506,6 @@ No se puede gestionar una respuesta rentable a los cambios del mercado a menos q
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
