@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Harlow Malloc">
+<meta name="author" content="Charlie Do Amaral">
 
-<title>Post With Code – Charlie Do Amaral</title>
+<title>Gestión de Inventario y Pronóstico de la Demanda – Charlie Do Amaral</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -71,7 +36,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -117,12 +81,18 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-WZ5QTBHBQF', { 'anonymize_ip': true});
 </script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: pricing_analytics_frontend.jpg;
+      }
+</style>
 
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -355,59 +325,148 @@ gtag('config', 'G-WZ5QTBHBQF', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
-              </div>
-                  </div>
+      <h1 class="title">Gestión de Inventario y Pronóstico de la Demanda</h1>
+            <p class="subtitle lead">S&amp;OP y la Cadena de Suministro Digital</p>
+                      </div>
   </div>
-    
-  
   <div class="quarto-title-meta">
-
       <div>
       <div class="quarto-title-meta-heading">Autor/a</div>
       <div class="quarto-title-meta-contents">
-               <p>Harlow Malloc </p>
+               <p>Charlie Do Amaral </p>
             </div>
     </div>
-      
       <div>
       <div class="quarto-title-meta-heading">Fecha de publicación</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">6 de agosto de 2025</p>
+        <p class="date">10 de febrero de 2025</p>
       </div>
     </div>
-    
-      
     </div>
-    
-  
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+  <ul>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#dar-el-salto" id="toc-dar-el-salto" class="nav-link" data-scroll-target="#dar-el-salto">Dar el salto</a></li>
+  <li><a href="#el-problema-que-pretendemos-resolver" id="toc-el-problema-que-pretendemos-resolver" class="nav-link" data-scroll-target="#el-problema-que-pretendemos-resolver">El problema que pretendemos resolver</a>
+  <ul class="collapse">
+  <li><a href="#características-de-la-solución" id="toc-características-de-la-solución" class="nav-link" data-scroll-target="#características-de-la-solución">Características de la solución</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<div class="quarto-about-marquee">
+  <div class="about-image-container">
+  </div>
+  <div class="about-contents">
+     <main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
+<p><img src="supply_01.jpg" class="img-fluid"></p>
+<section id="introducción" class="level2">
+<h2 data-anchor-id="introducción">Introducción</h2>
+<p>Sabía usted que, según el modelo de de cuatro etapas de S&amp;OP Alta-Madurez de Gartner, casi el 70% de las empresas se encuentran estancadas en las fases de reacción y anticipación. Estas áreas suelen centrarse en la elaboración de un plan y la celebración de reuniones periódicas de S&amp;OP para equilibrar la oferta y la demanda en beneficio de la empresa. En consecuencia, se centran totalmente en procesos internos y suelen requerir al menos cuatro años para consolidarse.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="supply_02.png" class="img-fluid figure-img"></p>
+<figcaption>Modelo de de cuatro etapas de S&amp;OP Alta-Madurez de Gartner</figcaption>
+</figure>
+</div>
+<p>Para abordar la incertidumbre, la complejidad y el riesgo que conllevan las cadenas de suministro globales y digitales, es hora de dar el salto a la estapas más maduras de S&amp;OP: colaborar y orquestar. La colaboración implica ampliar el proceso de S&amp;OP a los proveedores y clientes de la empresa; la orquestación describe un proceso impulsado por la detección y el modelado de la demanda, así como por las compensaciones de negocio, como los análisis de riesgo-recompensa (<em>risk-reward</em>). En otras palabras, el enfoque se centran en la rentabilidad.</p>
+</section>
+<section id="dar-el-salto" class="level2">
+<h2 data-anchor-id="dar-el-salto">Dar el salto</h2>
+<p>Para afrontar la creciente incertidumbre, complejidad y riesgo, se necesitan recursos adicionales. El análisis predictivo, el modelado probabilístico junto a tecnologías como Apache Hadoop, Apache Spark son algunas de las herramientas disposnibles con las que los profesionales de la gestión de la cadena de suministro deberían familiarizarse. Estas soluciones permiten a los usuarios:</p>
+<ul>
+<li>Digitalizar sus cadenas de suministros</li>
+<li>Gestionar mejor la incertidumbre</li>
+<li>Interpretar y comprender de forma más eficaz los datos no estructurados</li>
+<li>Cuantificar cómo reaccionarán sus cadenas de suministro ante los desafíos</li>
+<li>Desarrollar patrones estadísticamente sólidos asociados con los hábitos y sentimientos de compra de proveedores y clientes</li>
+</ul>
+<p>Quizás lo más importante es que estas interesantes herramientas pueden facilitar con éxito el salto a las etapas más maduras de S&amp;OP, que se desarrollan desde fuera hacia dentro. De hecho, a medida que permiten a los usuarios de todo tipo de redes acelerar el aprendizaje y mejorar la precisión de la toma de decisiones de última generación, la visión de S&amp;OP cambiará drásticamente, y mucho antes de lo que muchos profesionales creen. Y con cada vez más profesionales de la gestión de la cadena de sumninistro aprovechando estas herramientas y adoptando la S&amp;OP de última generación, las empresas se beneficiarán de progresar al modelo de madurez del análisis predictivo:</p>
+<ul>
+<li>Fase 1: Descriptiva (¿Qué sucedió?)</li>
+<li>Fase 2: Predictiva (¿Qué podría suceder a continuación?)</li>
+<li>Fase 3: Prescriptiva (¿Qué debo hacer al respecto?)</li>
+<li>Fase 4: Cognitiva (¿El sistema aprende?)</li>
+</ul>
+</section>
+<section id="el-problema-que-pretendemos-resolver" class="level2">
+<h2 data-anchor-id="el-problema-que-pretendemos-resolver">El problema que pretendemos resolver</h2>
+<p>Cuando trabajamos en la planificación de la oferta de la oferta y la demanda, es bastante común que necesitemos calcular los inventarios proyectados (y las coberturas proyectadas relacionadas). Generalmente tenemos tres opciones para realizar este cálculo:</p>
+<ol type="1">
+<li>Un software de planificación avanzado ASP (<em>Advanced Planning System</em>)</li>
+<li>Un ERP como SAP o JDE</li>
+<li>Y por supuesto…, Excel.</li>
+</ol>
+<p>Por ejemplo, podríamos obtener un análisis de la situación proyectada de un portafolio (como resultado de una función), de modo que no tengamos que mirar cada producto uno por uno y, en cambio, podamos:</p>
+<ul>
+<li>Obtener fácilmente la vista resumida del portafolio</li>
+<li>Centrarnos en productos con riesgo de escasez (desabastecimiento o quiebre de stock) o exceso de existencias</li>
+</ul>
+<p>Con la herramienta tenemos una forma eficiente de ejecutar procesos de monitoreo de la cadena de suministro de un extremo a otro.</p>
+<section id="características-de-la-solución" class="level3">
+<h3 data-anchor-id="características-de-la-solución">Características de la solución</h3>
+<section id="cálculo-de-inventarios-proyectados" class="level4">
+<h4 data-anchor-id="cálculo-de-inventarios-proyectados">Cálculo de inventarios proyectados</h4>
+<p>Veamos algunas características de la solución a través de algunos ejemplos.</p>
+<ol type="1">
+<li>Comenzamos con un inventario inicial de 1,000 unidades</li>
+<li>Durante el mes M vendemos 100 unidades (la demanda). Al final del periodo (Mes M), el inventario es de 900 unidades.</li>
+<li>Por lo tanto, hay una demnda de 800 unidades al final del siguiente periodo (M+1)</li>
+<li>Durante el periodo (Mes M+2) obtenemos un suministro de 800 unidades y vendemos 100: ahora hay 1,100 unidades en stock.</li>
+</ol>
+<p>Así calculamos los inventarios proyectados</p>
+<p><img src="supply_03.png" class="img-fluid"></p>
+</section>
+<section id="proyección-de-cobertura" class="level4">
+<h4 data-anchor-id="proyección-de-cobertura">Proyección de cobertura</h4>
+<p>Otra caraterística de la solución es la proyección de cobertura. Veamoslo a través del siguiente ejemplo.</p>
+<p>Consideramos los inventarios proyectados al final de un periodo y evaluamos la cobertura relacionada con base en la próxima demanda.</p>
+<p><strong>Metodología</strong></p>
+<ul>
+<li>Miramos el pronóstico de la demanda</li>
+<li>Consumimos las existencias</li>
+<li>1,000 cubren ~2.9 meses de demanda</li>
+<li>Cobertura de apertura = 2.9 meses</li>
+</ul>
+<p><img src="supply_04.png" class="img-fluid"></p>
+<p>La imagen muestra de forma simple e intuitiva los resultados del cálculo para la columna coberturas proyectadas, considerando los inventarios en un momento dado y la demanda futura.</p>
+<p>Si usamos Excel, solemos encontrar un método abreviado para estimar las coberturas relacionadas, como considerar un promedio de la demanda durante los próximos 3 o 6 meses. Esto puede generar resultados incorrectos si la demanda no es constante (por ejemplo si existe estacionalidad o una tendencia marcada). Sin embargo, la solución simplifica estos cálculos.</p>
+<p>Ahora, consideremos algunos parámetros como: un objetivo de nivel mínimo de existencias y un objetivo de nivel máximo de existencias. Esto nos permite analizar de un vistazo el cálculo de inventario y la proyección de cobertura frente a los objetivos definidos. Adicionalmente, ahora disponemos de información adicional; como los campos calculados basados en los objetivos de seguridad y existencias máximas, alertas de riesgo de suministro a detalle por SKU.</p>
+<p><img src="supply_05.png" class="img-fluid"></p>
+<p>Podemos ver en la columna de análisis, tenemos varios valores posibles:</p>
+<ul>
+<li><strong>Sobrestock:</strong> Significa que los inventarios proyectados superan el objetivo máximo de stock</li>
+<li><strong>OK:</strong> Significa que los inventarios proyectados se encuentran entre los objetivos mínimos y máximos de stock</li>
+<li><strong>Alerta:</strong> Significa que los inventarios proyectados están por debajo del objetivo mínimo de stock</li>
+<li><strong>Escasez:</strong> Significa que los inventarios proyectados son negativos</li>
+</ul>
+<p>Tras identificar estos valores, podría surgir una segunda pregunta: ¿en qué medida (en comparación con el objetivo) nos encontramos en una situación de sobrestock o de alerta? Aquí es donde le resultarán útiles los dos ratios (Ratio PI vs Min y Ratio PI vs Max).</p>
+<p>El uso de datos para la elaboración de informes estándar mediante hojas de cálculo es común, pero no es suficiente para impulsar la toma de decisiones que genere una ventaja competitiva. Esto incluye a las empresas que ya utilizan los datos de Supply Chain para la previsión y la planificación de inventarios en toda su red de distribución, ya que pueden beneficiarse aún más de la aplicación de analítica avanzada a sus procesos de Supply Chain, que les ofrecen el mayor apalancamiento.</p>
+<p>La solución que entrego a mis clientes tiene muchas más características de las que se mencionan aquí. Estaré encantado de ampliarle los detalles.</p>
 
 
-
-
-<p>This is a post with executable code.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+</section>
+</section>
+</section>
+</main> 
+    <div class="about-footer"><div class="about-links">
+  <a href="https://www.linkedin.com/in/charlie-arturo-do-amaral-becerra/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
 </div>
 </div>
-
-
-
-</main> <!-- /main -->
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -423,13 +482,6 @@ gtag('config', 'G-WZ5QTBHBQF', { 'anonymize_ip': true});
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
