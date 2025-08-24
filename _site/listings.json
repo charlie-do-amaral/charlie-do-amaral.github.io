@@ -2,6 +2,7 @@
   {
     "listing": "/soluciones.html",
     "items": [
+      "/soluciones/supply_chain/index.html",
       "/soluciones/ubicaciones_competitivas/index.html",
       "/soluciones/pricing_analytics/index.html",
       "/soluciones/analisis_apriori/index.html"
